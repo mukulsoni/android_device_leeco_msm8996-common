@@ -320,5 +320,5 @@
     <bool name="config_dynamic_bind_ims">true</bool>
 
     <!-- Enable adjusting the button backlight -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!-- bool name="config_deviceHasVariableButtonBrightness">true</bool -->
 </resources>
