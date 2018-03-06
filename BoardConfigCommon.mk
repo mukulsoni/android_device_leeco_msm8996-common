@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Inherit from oppo-common
+-include device/oppo/common/BoardConfigCommon.mk
+
 PLATFORM_PATH := device/leeco/msm8996-common
 
 TARGET_SPECIFIC_HEADER_PATH += $(PLATFORM_PATH)/include
@@ -131,6 +134,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 # Power
 TARGET_HAS_NO_WIFI_STATS := true
 TARGET_USES_INTERACTION_BOOST := true
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # CNE and DPM
 BOARD_USES_QCNE := true

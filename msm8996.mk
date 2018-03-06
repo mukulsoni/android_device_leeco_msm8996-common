@@ -400,4 +400,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.model
 
+# Inherit from oppo-common
+$(call inherit-product, device/oppo/common/common.mk)
+
 $(call inherit-product, vendor/leeco/msm8996-common/msm8996-common-vendor.mk)
