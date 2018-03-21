@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit from oppo-common
--include device/oppo/common/BoardConfigCommon.mk
-
 PLATFORM_PATH := device/leeco/msm8996-common
 
 TARGET_SPECIFIC_HEADER_PATH += $(PLATFORM_PATH)/include
